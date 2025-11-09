@@ -175,11 +175,21 @@
 }
 
 .about {
+    margin-top: 50px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 60px;
+}
+
+.about h1 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 117%;
+    letter-spacing: -0.02em;
+    color: var(--primary-black);
 }
 
 .about_me {
@@ -193,15 +203,6 @@
     display: flex;
     flex-direction: column;
     gap: 60px;
-}
-
-.about_info h1{
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 117%;
-    letter-spacing: -0.02em;
-    color: var(--primary-black);
 }
 
 .about_info span {
